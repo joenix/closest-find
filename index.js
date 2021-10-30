@@ -25,7 +25,10 @@ var vendor =
  * @returns {Node}
  * ======== ======== ========
  */
-function findclosest(element, selector, self = false) {
+function findclosest(element, selector, self) {
+  // Check Self
+  self = self || false;
+
   // Make Target for Match
   var target = self ? element : element.parentElement;
 
