@@ -6,6 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "type": "module",
+  "typings": "./index.d.ts",
   "keywords": [
     "closest"
   ],
